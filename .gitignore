@@ -24,4 +24,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 ###a files and folders that should be ignored by git###
-node_modules
+./node_modules
