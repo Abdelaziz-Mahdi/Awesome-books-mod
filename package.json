@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Abdelaziz-Ali/Awesome-books-mod/issues"
   },
-  "homepage": "https://github.com/Abdelaziz-Ali/Awesome-books-mod#readme"
+  "homepage": "https://github.com/Abdelaziz-Ali/Awesome-books-mod#readme",
+  "dependencies": {
+    "luxon": "^3.3.0"
+  }
 }
