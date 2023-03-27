@@ -46,8 +46,7 @@ export default class BooksList {
       document.getElementById('add-author-name').placeholder = 'Author';
       document.getElementById('validation').innerHTML = '';
     } else {
-      document.getElementById('validation').innerHTML =
-        'Please fill author and book title';
+      document.getElementById('validation').innerHTML = 'Please fill author and book title';
     }
   }
 }
