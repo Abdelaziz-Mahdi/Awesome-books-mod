@@ -1,6 +1,5 @@
-import { BooksList } from "./modules/bookList.js";
-import { DateTime } from "./node_modules/luxon/src/luxon.js";
-
+import { BooksList } from './modules/bookList.js';
+import { DateTime } from './node_modules/luxon/src/luxon.js';
 
 const booksList = new BooksList();
 
@@ -13,7 +12,9 @@ addButton.addEventListener('click', () => {
 
 // Setting date and time.
 
-document.getElementById('date').innerHTML = DateTime.now().setLocale('en-US').toFormat('ff');
+document.getElementById('date').innerHTML = DateTime.now()
+  .setLocale('en-US')
+  .toFormat('ff');
 
 // Event listeners.
 
@@ -52,5 +53,5 @@ contactSection.addEventListener('click', () => {
 });
 
 window.onload = () => {
-    booksList.createContainer();
-  };
+  booksList.createContainer();
+};
