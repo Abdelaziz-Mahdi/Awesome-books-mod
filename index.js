@@ -1,5 +1,5 @@
 import BooksList from './modules/bookList.js';
-import { DateTime } from './modules/luxon.js';
+
 const booksList = new BooksList();
 
 const addButton = document.getElementById('add-book');
@@ -11,7 +11,7 @@ addButton.addEventListener('click', () => {
 
 // Setting date and time.
 
-document.getElementById('date').innerHTML = DateTime.now()
+document.getElementById('date').innerHTML = window.luxon.DateTime.now()
   .setLocale('en-US')
   .toFormat('ff');
 
